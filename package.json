@@ -1,0 +1,14 @@
+{
+  "name": "chord-render",
+  "description": "Chord render for any instrument",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/detrandix/chord-render"
+  },
+  "keywords": [
+    "chord"
+  ],
+  "author": "Tomas Lang <tomas.lang@gmail.com> (https://github.com/detrandix)",
+  "license": "MIT"
+}
