@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chord Render Example</title>
+</head>
+<body>
+	<div id="chord"></div>
+	<script type="text/javascript" src="src/ChordFactory.js"></script>
+	<script type="text/javascript" src="src/ChordRender.js"></script>
+	<script>
+	var chordFactory = new ChordFactory(['E', 'A', 'D', 'G', 'H', 'E']);
+	var chord = chordFactory.createChord('X3[4]3[3]2[2]1[1B]1');
+
+	var chordRender = new ChordRender();
+	chordRender.render(document.getElementById('chord'), chord);
+	</script>
+</body>
+</html>
